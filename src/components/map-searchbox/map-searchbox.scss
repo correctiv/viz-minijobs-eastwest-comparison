@@ -1,34 +1,14 @@
 @include cssPrefix('searchbox') {
-  z-index: 10;
   display: block;
-  margin-bottom: 10px;
   width: 100%;
-
-  @include bp-sm {
-    position: absolute;
-    width: 280px;
-    top: 0px;
-    right: 0px;
-  }
 
   &__input-wrapper {
     position: relative;
   }
 
-  &__selector-button {
-    position: absolute;
-    right: 3px;
-    top: 5px;
-    padding: 2px 3px 2px 3px;
-
-    &.-active {
-      background-color: $purple-lighter;
-    }
-  }
-
   &__input {
-    position: absolute;
     display: block;
+    height: 35px;
     width: 100%;
     padding: 3px;
     font-size: 15px;

@@ -1,6 +1,10 @@
 @include cssPrefix('districts-map-legend') {
   display: block;
-  padding-top: 50px;
+  padding-top: 20px;
+
+  @include bp-xs {
+    width: 60%;
+  }
 
   @include bp-sm {
     position: absolute;

@@ -3,10 +3,10 @@
   &-container {
     display: block;
     width: 100%;
-    padding-top: 80px;
+    padding-top: 20px;
 
     @include bp-sm {
-      padding-top: 0;
+    padding-top: 0px;
     }
   }
 

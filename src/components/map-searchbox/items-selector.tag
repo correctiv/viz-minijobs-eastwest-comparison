@@ -1,12 +1,11 @@
 import {data} from '../../scripts/data.js'
 
-<items-selector class="{ getClass() } { -visible: opts.visible }">
+<items-selector class={ getClass() }>
 
   <select onchange={ jumpTo }>
     <option each={ item, i in items } value={ i }>{ item.stateShort } - { item.name }</option>
   </select>
 
-  this.visible = false
   this.items = data.sort((a, b) => a.stateShort + a.name > b.stateShort + b.name ? 1 : -1)
 
   this.jumpTo = e => {

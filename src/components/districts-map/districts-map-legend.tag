@@ -2,7 +2,7 @@ import getColor from './get_color.js'
 
 <districts-map-legend class={ getClass() }>
 
-  <span class={ getClass('annotation') }>Durchschnittliche Dauer in einem Minijob in Tagen</span>
+  <span class={ getClass('annotation') }>Dauer in Tagen</span>
   <ul class={ getClass('list')}>
     <li each={ ticks } class={ parent.getClass('list-item') }>
       { value }<span style="background-color:{ color };" />
