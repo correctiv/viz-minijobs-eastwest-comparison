@@ -1,0 +1,20 @@
+@include cssPrefix('piktogram-bar') {
+
+  display: block;
+  width: 100%;
+  clear: both;
+
+  &__pikto {
+    display: block;
+    float: left;
+
+    &--female svg {
+      fill: $female-color;
+    }
+
+    &--male svg {
+      fill: $male-color;
+    }
+  }
+
+}

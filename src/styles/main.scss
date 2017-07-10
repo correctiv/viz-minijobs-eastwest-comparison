@@ -1,0 +1,24 @@
+@include cssPrefix('app-container') {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+@include cssPrefix('duration-viz') {
+  display: block;
+  width: 100%;
+
+  &__headline {
+    font-family: $font-neuzeit;
+    margin-bottom: 15px;
+  }
+}
+
+@include cssPrefix('intro-viz') {
+  display: block;
+  width: 100%;
+
+  section {
+    clear: both;
+  }
+}
