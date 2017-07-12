@@ -7,7 +7,7 @@ import unhilight from './unhilight_path.js'
 
   <h4 class={ getClass('title') }>{ titles[opts.gender] }</h4>
   <span class={ getClass('subtitle') }>Durchschnittliche Dauer im Minijob</span>
-  <div class={ getClass('svg-wrapper') } id="svg-map-{ opts.gender }" />
+  <div class={ getClass('svg-wrapper') } id="svg-map-ew-{ opts.gender }" />
   <div class={ getClass('labelling')}>
     <span class={ getClass('labelling__name', 'left') }>Nordrhein-Westfalen</span>
     <span class={ getClass('labelling__name', 'right') }>Brandenburg</span>
@@ -20,7 +20,7 @@ import unhilight from './unhilight_path.js'
 
   this.on('mount', () => {
     this.selection = renderMap({
-      element: d3.select(`#svg-map-${this.opts.gender}`),
+      element: d3.select(`#svg-map-ew-${this.opts.gender}`),
       gender: this.opts.gender,
       getClass: this.getClass
     })
