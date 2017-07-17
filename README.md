@@ -30,6 +30,9 @@ dist/styles/bundle.css
   <div class="figure__container">
     <div data-riot-mount="cor-mj-nrwbb-map"></div>
   </div>
+  <div class="figure__credits">
+    Daten: <a href="">Statistik der Minijob-Zentrale: Geringfügig entlohnte Beschäftigungsverhältnisse im Gewerblichen Bereich nach der Beschäftigungsdauer</a>, aufgeschlüsselt nach Kreisen und kreisfreien Städten für Nordrhein-Westfalen und Brandenburg. Stand: 31.12.2016
+  </div>
 </figure>
 ```
 
