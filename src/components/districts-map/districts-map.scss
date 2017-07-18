@@ -6,7 +6,12 @@
     padding-top: 20px;
 
     @include bp-sm {
-    padding-top: 0px;
+      padding-top: 0px;
+      padding-right: 300px;
+    }
+
+    @include bp-lg {
+      padding-right: 400px;
     }
   }
 
@@ -19,13 +24,13 @@
   &__svg-wrapper {
     padding-top: 20px;
 
-    @include bp-sm {
-      padding-right: 300px;
-    }
+    // @include bp-sm {
+    //   padding-right: 300px;
+    // }
 
-    @include bp-lg {
-      padding-right: 400px;
-    }
+    // @include bp-lg {
+    //   padding-right: 400px;
+    // }
   }
 
   &__title {
