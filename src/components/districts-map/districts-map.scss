@@ -72,14 +72,6 @@
 
       &--right {
         right: 0;
-
-        @include bp-sm {
-          right: 300px;
-        }
-
-        @include bp-lg {
-          right: 400px;
-        }
       }
     }
   }
